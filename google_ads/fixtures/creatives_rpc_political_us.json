@@ -1,0 +1,830 @@
+{
+ "1": [
+  {
+   "1": "AR04250227102713905153",
+   "2": "CR17560398381572947969",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=4702562424&creativeId=829796544216&uiFeatures=12,54&adGroupId=206746183412&assets=%3DH4sIAAAAAAAAAOMS4-LkuLLzcsclHgEeLk6OQ70Xt83gEdAEAJs2xcgYAAAA&sig=ACiVB_yZPjKpYn2-7B3n0R5yLpuYVPW5GQ&htmlParentId=fletch-render-1011786300179317409&responseCallback=fletchCallback1011786300179317409"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1793246465",
+    "2": 315725000
+   },
+   "7": {
+    "1": "1793700124",
+    "2": 9479000
+   },
+   "8": "900000",
+   "9": "1000000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "30000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "35000"
+     }
+    ]
+   },
+   "12": "HMP",
+   "13": 7,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR02621429646981332993",
+   "2": "CR16281816716684558337",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=6603547141&creativeId=825624034030&uiFeatures=12,54&adGroupId=199953644309&assets=%3DH4sIAAAAAAAAAOMS4-Lk6F12b89qHgFNLk6OtZO_713NI8ADAP9OrmYYAAAA&sig=ACiVB_yV5XP4rZsAKLB5Vf9_mqaINt8tTw&htmlParentId=fletch-render-5090306511419583081&responseCallback=fletchCallback5090306511419583081"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1790093019",
+    "2": 35829000
+   },
+   "7": {
+    "1": "1793700094",
+    "2": 311852000
+   },
+   "8": "900000",
+   "9": "1000000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "15000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "20000"
+     }
+    ]
+   },
+   "12": "ELIZABETH PANNILL FLETCHER FOR CONGRESS",
+   "13": 41,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR15908100651503058945",
+   "2": "CR06072924095429738497",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=5291593187&creativeId=829465850078&uiFeatures=12,54&adGroupId=195514425826&assets=%3DH4sIAAAAAAAAAAEuANH_CiwKCQi8y6ngzAwQDAoJCMzTjKf3CxAICgkIw-rbrfcLECkKCQj4qI3-jgwQBo9Bl7ouAAAA&sig=ACiVB_x0ZGn5fD2r96NecV5kC7QqJvEgNQ&htmlParentId=fletch-render-2928637018062647498&responseCallback=fletchCallback2928637018062647498"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792791843",
+    "2": 759923000
+   },
+   "7": {
+    "1": "1793700091",
+    "2": 795041000
+   },
+   "8": "2500000",
+   "9": "3000000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "80000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "90000"
+     }
+    ]
+   },
+   "12": "SLF PAC",
+   "13": 12,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR17896267392510590977",
+   "2": "CR17234642773076869121",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=4633208754&creativeId=828639012607&uiFeatures=12,54&adGroupId=204209701431&assets=%3DH4sIAAAAAAAAAOMy5-Lk2Nmz4dtBHgE2Lk6O5z_mtu1nE9Dk4uT4ePZ150keASYuTo75s8_eP8EjwMPFyfEOIsoMABgJZNs5AAAA&sig=ACiVB_zQHBoCN841Y-RH9bYHg5nJ_dge3A&htmlParentId=fletch-render-10108655724717483461&responseCallback=fletchCallback10108655724717483461"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792518141",
+    "2": 88243000
+   },
+   "7": {
+    "1": "1793700071",
+    "2": 351900000
+   },
+   "8": "2500000",
+   "9": "3000000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "35000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "40000"
+     }
+    ]
+   },
+   "12": "VoteVets",
+   "13": 15,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR00040546930815664129",
+   "2": "CR00327143235120005121",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=6503511961&creativeId=826825156682&uiFeatures=12,54&adGroupId=197694339261&assets=%3DH4sIAAAAAAAAAAEjANz_CiEKCQiYpses9QoQKQoJCKqx78atDBAMCgkIl5Pe6JIMEAbmsC1WIwAAAA&sig=ACiVB_y_LM5jNQOMlBHBqNxXOohP48U_EA&htmlParentId=fletch-render-2710250480226569912&responseCallback=fletchCallback2710250480226569912"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1791086468",
+    "2": 404957000
+   },
+   "7": {
+    "1": "1793700039",
+    "2": 550571000
+   },
+   "8": "1000000",
+   "9": "1250000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "20000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "25000"
+     }
+    ]
+   },
+   "12": "SENTINEL ACTION FUND",
+   "13": 32,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR12473000136173158401",
+   "2": "CR14683423952915660801",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=1967610699&creativeId=828470662459&uiFeatures=12,54&adGroupId=204331394634&assets=%3DH4sIAAAAAAAAAONy4uLkeLJ828djPAJMXJwcS77cPn6MR0CTi5Pj9_JP04_xCDBzcXL8b30AEuXg4uToawcr4OHi5Gi_uBakjQ0AauCszEQAAAA&sig=ACiVB_zMT8q2ygpcFLComG3ll4gPmJOQ0Q&htmlParentId=fletch-render-12387359854430127433&responseCallback=fletchCallback12387359854430127433"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792505243",
+    "2": 486803000
+   },
+   "7": {
+    "1": "1793700038",
+    "2": 955095000
+   },
+   "8": "500000",
+   "9": "600000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "5000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "6000"
+     }
+    ]
+   },
+   "12": "MY VOTE COUNTS HAWAII % NADIA ALVES",
+   "13": 15,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR17896267392510590977",
+   "2": "CR03996694298467762177",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=4633208754&creativeId=829374937849&uiFeatures=12,54&adGroupId=204506945427&assets=%3DH4sIAAAAAAAAAONS5OLkeHL71_QzPAJMXJwczd17n53mEeDh4uR4CBFlBgCj_d1HIwAAAA&sig=ACiVB_ymR1X5p78kbE3C2YiSKVr_tpsl1A&htmlParentId=fletch-render-15092699278856053513&responseCallback=fletchCallback15092699278856053513"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792780597",
+    "2": 372794000
+   },
+   "7": {
+    "1": "1793610063",
+    "2": 242717000
+   },
+   "8": "200000",
+   "9": "225000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "10000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "15000"
+     }
+    ]
+   },
+   "12": "VoteVets",
+   "13": 11,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR11902574500115382273",
+   "2": "CR17425840973199441921",
+   "3": {
+    "3": {
+     "2": "<img src=\"https://tpc.googlesyndication.com/archive/simgad/18387581473144705212\" height=\"200\" width=\"348\">"
+    },
+    "5": true
+   },
+   "4": 1,
+   "6": {
+    "1": "1789571284",
+    "2": 330654000
+   },
+   "7": {
+    "1": "1793700015",
+    "2": 812234000
+   },
+   "8": "150000",
+   "9": "175000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "125000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "150000"
+     }
+    ]
+   },
+   "12": "YES ON 42 - PROTECT RETIREMENT & LIFE SAVINGS, A COALITION OF RETIREES, BLUE-COLLAR WORKERS, SENIORS, VETERANS, SMALL BUSINESSESS & TAXPAYERS",
+   "13": 48,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR06586179121162747905",
+   "2": "CR10363761350877904897",
+   "3": {
+    "3": {
+     "2": "<img src=\"https://tpc.googlesyndication.com/archive/simgad/10538446731278738651\" height=\"211\" width=\"348\">"
+    },
+    "5": true
+   },
+   "4": 1,
+   "6": {
+    "1": "1781399488",
+    "2": 664749000
+   },
+   "7": {
+    "1": "1793700004",
+    "2": 716368000
+   },
+   "8": "1000",
+   "9": "2000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "100"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "200"
+     }
+    ]
+   },
+   "12": "Hearst Newspapers LLC",
+   "13": 143,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR05727962801935220737",
+   "2": "CR13892643370469163009",
+   "3": {
+    "3": {
+     "2": "<img src=\"https://tpc.googlesyndication.com/archive/simgad/6089506895388958467\" height=\"160\" width=\"348\">"
+    },
+    "5": true
+   },
+   "4": 1,
+   "6": {
+    "1": "1791970679",
+    "2": 606541000
+   },
+   "7": {
+    "1": "1793700004",
+    "2": 659777000
+   },
+   "8": "200000",
+   "9": "225000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "3500"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "4000"
+     }
+    ]
+   },
+   "12": "BABY LIST INC",
+   "13": 21,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR07044105218547515393",
+   "2": "CR05411306167555063809",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=5374128882&creativeId=829404209265&uiFeatures=12,54&adGroupId=205292247830&assets=%3DH4sIAAAAAAAAAOMy5-Lk-LXq0rKzPAKMXJwc3yFMZoQoExcnxxcIk4OLk2PazIsgJg8A3EEhoDkAAAA&sig=ACiVB_ytUqt2zQ4VwUWbt1ZaCaXyc2am0Q&htmlParentId=fletch-render-3145465199949716689&responseCallback=fletchCallback3145465199949716689"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792883924",
+    "2": 932928000
+   },
+   "7": {
+    "1": "1793699972",
+    "2": 880267000
+   },
+   "8": "10000",
+   "9": "15000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "1500"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "2000"
+     }
+    ]
+   },
+   "12": "KANSAS VALUES INSTITUTE",
+   "13": 11,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR00496591892654325761",
+   "2": "CR08022236990319624193",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=6971907929&creativeId=825965892176&uiFeatures=12,54&adGroupId=200164300683&versionId=1&assets=%3DH4sIAAAAAAAAAOPS4eLkuD_78ce1PAKyXJwcHZ9bZ67lEeDh4uQ4PGk6iMnExclxfvpUkAJmABUcsU4uAAAA&sig=ACiVB_ydZaKoUZjN0pz0IL8Le7AIiTNJGQ&htmlParentId=fletch-render-16703181313602800905&responseCallback=fletchCallback16703181313602800905"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1790275425",
+    "2": 345817000
+   },
+   "7": {
+    "1": "1793699970",
+    "2": 758951000
+   },
+   "8": "900000",
+   "9": "1000000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "7000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "8000"
+     }
+    ]
+   },
+   "12": "Joe Tache for Senate",
+   "13": 41,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR12838009306213253121",
+   "2": "CR07968737228413206529",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=9803060969&creativeId=828729158092&uiFeatures=12,54&adGroupId=204073361889&versionId=2&assets=%3DH4sIAAAAAAAAAAEjANz_CiEKCQjfyLCVkwwQKQoJCK3L_L6SDBAGCgkI0bnC3ckMEAz_z2sfIwAAAA&sig=ACiVB_yx00Y33G7lsfEpCtJbpT3cS-rAtg&htmlParentId=fletch-render-506100907360042042&responseCallback=fletchCallback506100907360042042"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792685021",
+    "2": 843776000
+   },
+   "7": {
+    "1": "1793699959",
+    "2": 184228000
+   },
+   "8": "900000",
+   "9": "1000000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "50000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "60000"
+     }
+    ]
+   },
+   "12": "THE EDGE ACTION FUND",
+   "13": 13,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR12360604578658385921",
+   "2": "CR03222888801164591105",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=9803980215&creativeId=828665392946&uiFeatures=12,54&adGroupId=196746517822&versionId=1&assets=%3DH4sIAAAAAAAAAONS5OLkWDx3xqSH3AJsXJwce_fdbDvBI8DDxckx4eHypw-5BTQBYfDDTiMAAAA&sig=ACiVB_wuR6k0IeRQWErQE6vmtvhTN-W5gQ&htmlParentId=fletch-render-5998104395068283439&responseCallback=fletchCallback5998104395068283439"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792505464",
+    "2": 752797000
+   },
+   "7": {
+    "1": "1793699957",
+    "2": 183705000
+   },
+   "8": "1000000",
+   "9": "1250000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "20000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "25000"
+     }
+    ]
+   },
+   "12": "Friends of Tina Kotek",
+   "13": 15,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR15734431003189444609",
+   "2": "CR12200462814606786561",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=8353729745&creativeId=828716052854&uiFeatures=12,54&adGroupId=200504726065&versionId=1&assets=%3DH4sIAAAAAAAAAAE5AMb_CjcKCQiDtJPfyAwQAwoJCNKM2-DCDBACCgkIhoP2m4oKECkKCQi86e24wwwQBgoJCMn1suHKDBAMD0edPTkAAAA&sig=ACiVB_x54AZse_5IhVtYq6RVFLVW2Glw3w&htmlParentId=fletch-render-5100730241804789578&responseCallback=fletchCallback5100730241804789578"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792516618",
+    "2": 97245000
+   },
+   "7": {
+    "1": "1793699954",
+    "2": 80857000
+   },
+   "8": "350000",
+   "9": "400000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "8000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "9000"
+     }
+    ]
+   },
+   "12": "SPRAGUE FOR OHIO",
+   "13": 15,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR01487167206885163009",
+   "2": "CR14497298624565739521",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=1788870545&creativeId=828717739910&uiFeatures=12,54&adGroupId=202031263644&assets=%3DH4sIAAAAAAAAAONS5OLk2HJnzYMTPAI8XJwcO-6fnfeKW0CTi5Nj2rnJICYbALk49aYjAAAA&sig=ACiVB_zTzKVhVWq2y7Q0SL5d_jiosB3qzw&htmlParentId=fletch-render-16953019077699736112&responseCallback=fletchCallback16953019077699736112"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792516930",
+    "2": 135728000
+   },
+   "7": {
+    "1": "1793699938",
+    "2": 25218000
+   },
+   "8": "175000",
+   "9": "200000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "5000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "6000"
+     }
+    ]
+   },
+   "12": "NEW WISCONSIN MAJORITY",
+   "13": 15,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR01975338824745615361",
+   "2": "CR11916212670547623937",
+   "3": {
+    "3": {
+     "2": "<img src=\"https://tpc.googlesyndication.com/archive/simgad/17034271053712543220\" height=\"600\" width=\"300\">"
+    },
+    "5": true
+   },
+   "4": 2,
+   "6": {
+    "1": "1792698242",
+    "2": 146127000
+   },
+   "7": {
+    "1": "1793699935",
+    "2": 328920000
+   },
+   "8": "300000",
+   "9": "350000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "100"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "200"
+     }
+    ]
+   },
+   "12": "AYANA FOR STATE SENATE 2026",
+   "13": 13,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR08125054521656213505",
+   "2": "CR14721885694288986113",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=9064745933&creativeId=826372234700&uiFeatures=12,54&adGroupId=199317450143&assets=%3DH4sIAAAAAAAAAOPS4eLkmDhlb8dGHgEOLk6OA217QExmLk6OLXMOgJg8XJwchyGiTABMEHdfLgAAAA&sig=ACiVB_y3kP-9X3SBlKqob7eyvh0yNSR9kA&htmlParentId=fletch-render-8131456423073450686&responseCallback=fletchCallback8131456423073450686"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1790636249",
+    "2": 562688000
+   },
+   "7": {
+    "1": "1793699934",
+    "2": 114242000
+   },
+   "8": "500000",
+   "9": "600000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "2500"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "3000"
+     }
+    ]
+   },
+   "12": "Terrance Freeman Campaign",
+   "13": 37,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR10863051676995026945",
+   "2": "CR09528816684878528513",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=7878569046&creativeId=828680769516&uiFeatures=12,54&adGroupId=198770622666&allowedVariations=48&overlay=%3DH4sIAAAAAAAAAPNS4OJPrShJLcpLzAnLTEnN90wR4uXiNvbNMEl20g0OL_YEAFjwVuoiAAAA&sig=ACiVB_ypL7YgEeHnLlO6TVC4Gv35DvgC9A&htmlParentId=fletch-render-6073256290506365517&responseCallback=fletchCallback6073256290506365517"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1792602191",
+    "2": 941580000
+   },
+   "7": {
+    "1": "1793699922",
+    "2": 495545000
+   },
+   "8": "150000",
+   "9": "175000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "1000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "1500"
+     }
+    ]
+   },
+   "12": "FORWARD FRONTIER",
+   "13": 14,
+   "15": [
+    "US"
+   ]
+  },
+  {
+   "1": "AR02471672117419048961",
+   "2": "CR02449047844611424257",
+   "3": {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=9382620521&creativeId=825447339350&uiFeatures=12,54&adGroupId=203248013671&assets=%3DH4sIAAAAAAAAAOMy5-LkmHT799tJPAJsXJwc_1_cu7mSR4CHi5Pjy8M_K25yC2hycXJMmfYCJMrExcmxZN-2TSt5BJgBjh3f6zkAAAA&sig=ACiVB_wQ7HlCWEe25D0WdPrwO8ezP3HQcQ&htmlParentId=fletch-render-15326670534839481153&responseCallback=fletchCallback15326670534839481153"
+    }
+   },
+   "4": 3,
+   "6": {
+    "1": "1789915149",
+    "2": 534448000
+   },
+   "7": {
+    "1": "1793699915",
+    "2": 16336000
+   },
+   "8": "400000",
+   "9": "450000",
+   "10": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "1000"
+     }
+    ]
+   },
+   "11": {
+    "1": [
+     {
+      "1": "USD",
+      "2": "1500"
+     }
+    ]
+   },
+   "12": "Jen Wiles for NC House",
+   "13": 45,
+   "15": [
+    "US"
+   ]
+  }
+ ],
+ "2": "CgoAP7zmgo7G7V2/EhDIrXYCb6LCslz7R8AAAAAAGgn8+GW1+EfInM0=",
+ "3": "981183"
+}

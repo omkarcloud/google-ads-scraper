@@ -1,0 +1,148 @@
+# 📣 Google Ads Scraper
+
+Google Ads Scraper is a **free and open-source** scraper that gets you **unlimited** Google Ads data for free — every ad your competitors run on Google.
+
+## ✨ What Can I Get?
+
+- 📣 **Every ad a brand runs on Google** — 5,000+ for Tesla, 40,000+ on airbnb.com in France alone — with format, first & last shown, days live and preview
+- 📝 **The full ad copy, not a screenshot** — headline, description, display domain, business address, Shopping product & YouTube video
+- 📊 **Stats for up to 130+ countries per ad** — first & last shown per country, times shown per country and platform (Search, YouTube, Maps, Play, Shopping) for EU and political ads, plus audience targeting
+- 🗳️ **Political ads with real spend** — amount spent ($1.5M–$2M on a single ad), times shown and regions for every election ad in a country
+
+## 🎯 Example: A Full Google Ad
+
+```json
+{
+  "id": "CR17779141263526723585",
+  "link": "https://adstransparency.google.com/advertiser/AR17828074650563772417/creative/CR17779141263526723585?region=anywhere",
+  "advertiser": { "id": "AR17828074650563772417", "name": "Tesla Inc." },
+  "format": "TEXT",
+  "last_shown": "2026-11-03T04:54:01Z",
+  "content_topic": { "id": 10004, "name": "Business & Industrial" },
+  "copy": {
+    "headline": "Lowest Price Guaranteed",
+    "description": "Tesla Guarantees the Lowest Price in the USA for Maximum Energy Production and Durability",
+    "display_domain": "tesla.com",
+    "locations": [
+      { "name": "Tesla Energy Milpitas", "street": "418 S Abbott Ave", "city": "Milpitas", "region": "CA", "postal_code": "95035", "country": "US" }
+    ]
+  },
+  "targeting": {
+    "audience_selection": {
+      "demographic_info": { "is_included": true, "is_excluded": true },
+      "geographic_locations": { "is_included": true, "is_excluded": true }
+    }
+  },
+  "region_stats": [
+    {
+      "region": "DE",
+      "region_name": "Germany",
+      "first_shown": "2023-10-25",
+      "last_shown": "2025-04-25",
+      "impressions": { "min": null, "max": 1000 },
+      "platforms": [{ "platform": "SEARCH", "impressions": { "min": null, "max": 1000 } }]
+    }
+  ]
+}
+```
+
+*Trimmed for readability.*
+
+## 🚀 Unlimited Free Google Ads Data — Get It in 60 Seconds
+
+1️⃣ Clone and install:
+```bash
+git clone https://github.com/omkarcloud/google-ads-scraper
+cd google-ads-scraper
+python -m pip install -r requirements.txt
+```
+
+2️⃣ Start the API:
+```bash
+python run.py
+```
+
+3️⃣ Get your first data:
+```bash
+curl "http://localhost:8000/ads/details?ad=CR17779141263526723585"
+```
+
+```json
+{
+  "id": "CR17779141263526723585",
+  "advertiser": { "id": "AR17828074650563772417", "name": "Tesla Inc." },
+  "format": "TEXT",
+  "topic": "commercial",
+  "last_shown": "2026-11-03T04:54:01Z",
+  "content_topic": { "id": 10004, "name": "Business & Industrial" },
+  "copy": {
+    "headline": "Lowest Price Guaranteed",
+    "description": "Tesla Guarantees the Lowest Price in the USA for Maximum Energy Production and Durability",
+    "display_domain": "tesla.com",
+    "locations": [{ "name": "Tesla Energy Milpitas", "city": "Milpitas", "region": "CA", "country": "US" }]
+  },
+  "region_stats": [
+    { "region": "DE", "region_name": "Germany", "impressions": { "min": null, "max": 1000 } },
+    { "region": "ES", "region_name": "Spain", "impressions": { "min": null, "max": 1000 } },
+    { "region": "FR", "region_name": "France", "impressions": { "min": null, "max": 1000 } }
+  ]
+}
+```
+
+All 5 endpoints are now live at `http://localhost:8000`.
+
+## 📚 Endpoints
+
+5 endpoints cover everything you need.
+
+| Endpoint | Path | Returns |
+|---|---|---|
+| Ad Details | `/ads/details` | The full ad: copy, variations, impressions by country and platform, targeting |
+| Search Ads | `/ads/search` | Every ad a brand runs; filter by country, format, platform, dates |
+| Search Advertisers | `/advertisers/search` | Brand name to advertiser IDs, ad counts and matching domains |
+| Advertiser Details | `/advertisers/details` | Legal name, country, verification, topics and total ad count |
+| Search Political Ads | `/political/search` | Every election ad in a country with amount spent and times shown |
+
+## 🔍 Exploring Parameters
+
+The same API is published on RapidAPI, and its playground is the easiest place to try parameters and see raw responses. Once a request looks right, run it locally for **unlimited free** data.
+
+1. [Subscribe to the free plan](https://rapidapi.com/OmkarCloud/api/best-google-ads-scraper-free-1000-calls/pricing) — 1,000 calls/month, no credit card.
+2. [Try the endpoints in the playground](https://rapidapi.com/OmkarCloud/api/best-google-ads-scraper-free-1000-calls/playground) — every param is pre-filled, so you see real data in one click.
+3. Copy the generated code and replace `https://best-google-ads-scraper-free-1000-calls.p.rapidapi.com` with `http://localhost:8000`. It will now run against your local API.
+
+```python
+import requests
+
+# generated by the playground, host swapped for the local API
+response = requests.get(
+    "http://localhost:8000/ads/search",
+    params={"query": "tesla.com", "region": "US", "format": "video", "platform": "youtube"},
+)
+print(response.json())
+```
+
+## 💬 Have Questions? We Have Answers.
+
+You're a developer — we know how hard completing a project can be. So we offer full support: just message us and we'll reply ✅ with a solution within 1 working day.
+
+[![Message Us on WhatsApp about Google Ads Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918178804274&text=I%20need%20help%20using%20the%20Google%20Ads%20Scraper%20API.)
+
+[![Ask Us by Email about Google Ads Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=Help%20with%20Google%20Ads%20Scraper%20API&body=I%20need%20help%20using%20the%20Google%20Ads%20Scraper%20API.)
+
+## ⚡ Popular Scrapers by Omkar Cloud
+
+- [**Google Maps Scraper (3,100+ GitHub Stars)**](https://github.com/omkarcloud/google-maps-scraper) — type "dentists in New York", get every business as a ready-to-call lead list: phones, emails, websites & reviews. Up to 100K free leads/month.
+- [**G2 Scraper**](https://www.omkar.cloud/tools/g2-scraper) — G2 product details, ratings & AI-found contacts
+- [**Website Email Contact Scraper**](https://www.omkar.cloud/tools/website-email-contact-scraper) — emails, phones & socials from any website
+- [**AliExpress Scraper**](https://www.omkar.cloud/tools/aliexpress-scraper-api) — live product details, SKU variants, stock & shipping
+- [**Booking Scraper**](https://www.omkar.cloud/tools/booking-scraper) — Booking.com hotels: prices, ratings, rooms & amenities
+- [**Etsy Scraper**](https://www.omkar.cloud/tools/etsy-scraper) — Etsy products: prices, discounts, shops & variations
+
+## ⭐ Love It? [Star It ⭐!](https://github.com/omkarcloud/google-ads-scraper)
+
+Star the repo ⭐ and become my star hero!
+
+It's just 1 click, but it means the world to me.
+
+[![Star us on GitHub](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/star-us.png)](https://github.com/omkarcloud/google-ads-scraper)

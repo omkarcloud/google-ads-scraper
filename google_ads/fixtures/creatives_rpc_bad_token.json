@@ -1,0 +1,5 @@
+{
+ "2": "com.google.net.rpc3.client.RpcClientException: <eye3 title='/SearchService.SearchCreatives, INTERNAL'/> APPLICATION_ERROR;ads_integrity.transparency/SearchService.SearchCreatives;Couldn't parse continuation token: '\\201\\252\\333j\\007'.; with provider tfaa_creative_report_entry_prod on cell nn ; Converted from code INVALID_ARGUMENT; SearchCreatives failed for proto_query: go/debugproto  \ndomain {\n  unique: true\n}\nadvertiser_ids {\n  advertiser_ids: \"AR16735076323512287233\"\n}\n page_token: ���j\u0007 sort_options: go/debugproto  \n num_results: 4;AppErrorCode=13;StartTimeMs=1793701308503;unknown;Deadline(sec)=15.0;ResFormat=uncompressed;ServerTimeSec=0.0018509;LogBytes=256;FailFast;EffSecLevel=privacy_and_integrity;ReqFormat=uncompressed;ReqID=2b05b2288950a305;GlobalID=0;Server=[2002:a05:6850:e2c5:b0:7de:5f0b:a386]:4001",
+ "5": 500,
+ "9": 13
+}

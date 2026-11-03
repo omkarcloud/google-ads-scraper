@@ -1,0 +1,37 @@
+{
+ "1": {
+  "1": "AR16735076323512287233",
+  "2": "CR12797452823390322689",
+  "4": {
+   "1": "1793695929",
+   "2": 714978000
+  },
+  "5": [
+   {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=9975158271&creativeId=822116241303&uiFeatures=12&adGroupId=200267154635&itemIds=8959436762230770262&sig=ACiVB_wvsUHThflzIqtz3SCp0hcOPhTd4A&htmlParentId=fletch-render-13717678197200055684&responseCallback=fletchCallback13717678197200055684"
+    }
+   },
+   {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=9975158271&creativeId=822116241303&uiFeatures=12&adGroupId=200267154635&itemIds=10017652198334518847&overlay=%3DH4sIAAAAAAAAALMSMxLhEuK0v6ZsO_Mma7eg49rEKEWD1O9eMlwCycXFLpnFBTmJlcElRZl56UIcXGzu-fnpOakAlRyFXjYAAAA&sig=ACiVB_xtmlT0yBbVGZ7OeE-r9fOsrQ0HfA&htmlParentId=fletch-render-1109711698260630906&responseCallback=fletchCallback1109711698260630906"
+    }
+   },
+   {
+    "1": {
+     "4": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=9975158271&creativeId=822116241303&uiFeatures=12&adGroupId=200267154635&itemIds=14496675976244122856&sig=ACiVB_zlvFtQI-3EP_ek3rXyeJBg9CJNUA&htmlParentId=fletch-render-3996070359340747938&responseCallback=fletchCallback3996070359340747938"
+    }
+   }
+  ],
+  "8": 2,
+  "17": [
+   {
+    "1": 2840,
+    "5": 20261103
+   }
+  ],
+  "22": {
+   "1": "Nike, Inc."
+  }
+ }
+}
