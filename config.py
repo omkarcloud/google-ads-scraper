@@ -23,7 +23,7 @@ RETRY_BACKOFF = 2          # seconds, multiplied by the attempt number
 GOOGLE_ADS_PROXY = os.environ.get("GOOGLE_ADS_PROXY") or None
 
 
-def google_ads_proxy():
+def google_ads_proxy(*args, **kwargs):
     """The proxy for one curl session (None = direct). A failed request drops
     its session, so a rotating proxy hands the retry a fresh IP."""
     return os.environ.get("GOOGLE_ADS_PROXY") or None

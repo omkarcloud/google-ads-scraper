@@ -72,6 +72,7 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 
 from google_ads import refs
+from scraper_utils.values import to_int as _int
 
 _IMG_SRC_RE = re.compile(r'<img[^>]*\ssrc="([^"]+)"', re.I)
 _IMG_DIM_RE = re.compile(r'\s(height|width)="(\d+)"', re.I)
@@ -95,13 +96,6 @@ def _get(obj, *path):
             return None
         obj = obj.get(key)
     return obj
-
-
-def _int(value):
-    try:
-        return int(value)
-    except (TypeError, ValueError):
-        return None
 
 
 def _timestamp(obj):

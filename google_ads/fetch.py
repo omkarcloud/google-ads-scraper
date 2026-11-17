@@ -1,8 +1,11 @@
 """Google Ads Transparency Center transport: plain curl_cffi with chrome
-TLS. No browser, no cookies, no tokens, no login. Egress: one sticky proxy
-exit per thread session (config.google_ads_proxy(); the hosted service
-runs every call through a datacenter proxy, owner decision 2026-11-03).
-A retryable failure drops the session, so the retry rides a fresh exit.
+TLS. No browser, no cookies, no tokens, no login. Egress: one session per
+thread on the exit config.google_ads_proxy() names (knob GOOGLE_ADS_EXIT):
+the hosted service rides the shared gateway exit ("gateway", 2026-11-11; a fresh
+gateway address per request; a datacenter proxy before that, so Google's per-IP
+limits never land on the server's own IP). A retryable failure drops the
+session, so the retry rides a fresh exit, and a call's last retry rides
+GOOGLE_ADS_FALLBACK_EXIT (a datacenter exit).
 
 adstransparency.google.com is a pure JS app (no server-rendered data): the
 page's own calls are POSTs to /anji/_/rpc/<Service>/<Method>?authuser=
@@ -48,6 +51,7 @@ Failure taxonomy (scraper_errors, mapped to HTTP by route_glue):
   GoogleAdsNotFound       raised by api.py on an empty object  — never retried
 """
 import json
+import fastjson
 import os
 import sys
 import threading
@@ -114,10 +118,7 @@ _local = threading.local()
 
 
 def _new_state(proxy):
-    from curl_cffi import requests as curl_requests
-    sess = curl_requests.Session(impersonate=IMPERSONATE)
-    if proxy:
-        sess.proxies = {"http": proxy, "https": proxy}
+    sess = egress.new_session(proxy, impersonate=IMPERSONATE)     # a proxy URL, None, or the gateway exit ("gateway")
     language = egress.accept_language(proxy)
     return {
         "session": sess,
@@ -130,7 +131,7 @@ def _new_state(proxy):
 def _state():
     state = getattr(_local, "state", None)
     if state is None:
-        state = _local.state = _new_state(config.google_ads_proxy())
+        state = _local.state = _new_state(config.google_ads_proxy(fallback=getattr(_local, "fallback", False)))
     return state
 
 
@@ -148,18 +149,26 @@ def _drop_session():
 def _retrying(fn, label):
     """Run fn() under the shared retry policy (GoogleAdsUpstreamError only,
     Blocked included, each retry on a fresh session / exit; BadRequest and
-    NotFound surface immediately)."""
+    NotFound surface immediately). The last retry rides
+    config.GOOGLE_ADS_FALLBACK_EXIT, so a call the configured exit (the gateway
+    exit) keeps failing still gets one try on another exit."""
     last = None
-    for attempt in range(1, config.MAX_RETRIES + 1):
-        try:
-            return fn()
-        except GoogleAdsUpstreamError as e:
-            last = e
-            _drop_session()
-        print(f"google-ads: {label} attempt {attempt}/{config.MAX_RETRIES} failed: {last}")
-        if attempt < config.MAX_RETRIES:
-            time.sleep(config.RETRY_BACKOFF * attempt)
-    raise last
+    try:
+        for attempt in range(1, config.MAX_RETRIES + 1):
+            try:
+                return fn()
+            except GoogleAdsUpstreamError as e:
+                last = e
+                _drop_session()
+            print(f"google-ads: {label} attempt {attempt}/{config.MAX_RETRIES} failed: {last}")
+            if attempt < config.MAX_RETRIES:
+                _local.fallback = attempt + 1 == config.MAX_RETRIES     # the session _state() builds next
+                time.sleep(config.RETRY_BACKOFF * attempt)
+        raise last
+    finally:
+        if getattr(_local, "fallback", False):
+            _local.fallback = False
+            _drop_session()         # the next call starts on the configured exit again
 
 
 def _classify(resp, label):
@@ -196,7 +205,7 @@ def rpc(method, body, label):
             raise GoogleAdsUpstreamError(f"{label}: request failed: {type(e).__name__}: {e}")
         text = _classify(resp, label)
         try:
-            data = json.loads(text)
+            data = fastjson.loads(text)
         except ValueError:
             raise GoogleAdsBlocked(f"{label}: non-JSON answer ({text[:80]!r})")
         if not isinstance(data, dict):
